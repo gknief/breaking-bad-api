@@ -20,7 +20,7 @@ const App = () => {
 
     fetchItems();
 
-  }, []);
+  }, [query]);
 
   return (
     <div className="container">
